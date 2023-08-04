@@ -6,12 +6,12 @@
   * Return: Always 0
   */
 
-void _puts_recursion(char *c)
+void _puts_recursion(char *s)
 {
-	if (*c)
+	if (*s)
 	{
-		_putchar(*c);
-		_puts_recursion(c + 1);
+		_putchar(*s);
+		_puts_recursion(s + 1);
 	}
 	else
 		_putchar('\n');
