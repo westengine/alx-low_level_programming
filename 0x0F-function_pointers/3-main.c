@@ -21,7 +21,7 @@ int main(int __attribute__((__unused__)) argc, char *argptr[])
 
 	a = atoi(argptr[1]);
 	op = argptr[2];
-	b = atoi(argv[3]);
+	b = atoi(argptr[3]);
 
 	if (get_op_func(op) == NULL || op[1] != '\0')
 	{
